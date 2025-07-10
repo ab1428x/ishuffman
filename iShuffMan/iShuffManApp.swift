@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct iShuffManApp: App {
+    init() {
+        TestITunesDBReader.run()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
